@@ -1,0 +1,80 @@
+#r-about {
+  margin-top: 300px;
+  padding: 200px 0 185px 0;
+  background-color: #14141b !important;
+  position: relative;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #r-about {
+    margin-top: 50px !important;
+    padding: 100px 0 !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 414px) {
+  #r-about {
+    margin-top: 50px !important;
+    padding: 100px 0 !important;
+  }
+}
+
+#r-about h2,
+h3 {
+  font-family: poppins !important;
+  font-weight: 500;
+}
+
+.autotype {
+  color: #15c196 !important;
+  font-weight: bold;
+}
+
+.text-lightgreen {
+  color: #15c196 !important;
+}
+
+.robin-img {
+  position: absolute !important;
+  top: 50%;
+  bottom: 0;
+  left: 50%;
+  z-index: 1;
+}
+
+.my-circle {
+  padding: 170px;
+  margin: 170px;
+  color: white !important;
+  background-color: aquamarine !important;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  right: 9%;
+  border: solid 1px red;
+}
+
+.marker ::marker {
+  color: #15c196;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+  .profile h4 {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 414px) {
+  .profile h4 {
+    font-size: 20px !important;
+  }
+}
+
+.marker p {
+  font-family: poppins;
+}
+
+.profile {
+  font-family: poppins;
+}

@@ -1,0 +1,101 @@
+#footer {
+  padding: 150px 0;
+  background-color: #1d1d25;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #footer {
+    padding: 50px 0 !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 414px) {
+  #footer {
+    padding: 50px 0 !important;
+  }
+}
+
+#footer label {
+  font-size: 16px;
+  font-family: poppins;
+  color: white;
+}
+
+#footer input,
+#textarea {
+  margin-bottom: 15px;
+  background: #14141b;
+  /* background: transparent; */
+  border: solid 1px white;
+  color: white;
+}
+
+#footer #submit {
+  margin-top: 15px;
+  padding: 15px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  transition: 0.5s ease;
+}
+
+#footer #submit:hover {
+  color: #15c99b;
+  border: solid 1px #15c99b;
+  transition: 0.5s ease;
+}
+
+/* .form {
+  padding-left: ;
+} */
+
+#footer h1 {
+  color: white;
+  font-family: poppins;
+  font-weight: 900;
+}
+
+#footer p {
+  color: white;
+  font-family: poppins;
+  font-size: 18px;
+}
+
+#footer ul {
+  list-style: none;
+}
+
+#footer ul li a {
+  color: white;
+  font-size: 30px;
+  transition: 0.5s ease;
+}
+
+@media screen and (min-width: 300px) and (max-width: 414px) {
+  .icon {
+    padding: 20px;
+  }
+}
+
+#footer ul li i:hover {
+  color: #15c99b;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#bottom-footer {
+  padding: 20px 0;
+  background: black;
+}
+
+#bottom-footer p {
+  color: white;
+  font-family: poppins;
+}
+
+#bottom-footer span a {
+  color: #15c99b;
+  font-family: poppins;
+  text-decoration: none;
+  font-weight: 700;
+}

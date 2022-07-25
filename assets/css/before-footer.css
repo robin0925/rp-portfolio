@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+#before-footer {
+  background: #14141b;
+  padding: 100px 0;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #before-footer {
+    padding: 50px 0 !important;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 414px) {
+  #before-footer {
+    padding: 50px 0 !important;
+  }
+}
+
+#before-footer h1 {
+  font-family: poppins;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  #before-footer h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 414px) {
+  #before-footer h1 {
+    font-size: 30px;
+  }
+}
