@@ -273,3 +273,9 @@ body {
   padding: 200px 0;
   background-color: #e3edf7;
 } */
+
+#formbutton-buttonImage {
+  width: 35px;
+  padding: 0;
+  margin-left: 10px;
+}
