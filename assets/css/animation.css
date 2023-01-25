@@ -207,16 +207,18 @@
 
 .img-hover-zoom {
   height: 300px;
-  overflow: hidden;
+  overflow: hidden!important;
   cursor: pointer;
 }
 
 .img-hover-zoom img {
   transition: 1s ease;
+   overflow: hidden!important;
 }
 
 .img-hover-zoom:hover img {
   transform: scale(1.1);
+   overflow: hidden!important;
 }
 
 /*  */
