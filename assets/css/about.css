@@ -56,7 +56,7 @@ h3 {
 }
 
 .marker ::marker {
-  color: #15c196;
+  color: #c1c1c1;
 }
 
 @media screen and (min-width: 500px) and (max-width: 1024px) {
